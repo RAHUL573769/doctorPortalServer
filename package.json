@@ -1,11 +1,10 @@
 {
   "name": "doctorPortalServer",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"node index.js",
-    "start-dev":"nodemon index.js",
+    "start": "node index.js",
+    "start-dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,8 +12,19 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "dotenv": "^16.0.0",
+    "dotenv": "^16.0.1",
     "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
     "mongodb": "^4.5.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RAHUL573769/doctorPortalServer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RAHUL573769/doctorPortalServer/issues"
+  },
+  "homepage": "https://github.com/RAHUL573769/doctorPortalServer#readme",
+  "description": ""
 }
